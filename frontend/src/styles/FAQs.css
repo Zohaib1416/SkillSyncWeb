@@ -733,32 +733,26 @@
     width: 100% !important;
     display: flex !important;
     flex-wrap: nowrap !important;
-    justify-content: flex-start !important;
-    gap: 6px !important;
-    overflow-x: auto !important;
+    justify-content: space-between !important;
+    gap: 4px !important;
+    overflow-x: hidden !important;
     overflow-y: hidden !important;
     padding: 4px 0 !important;
-    -webkit-overflow-scrolling: touch !important;
-    scrollbar-width: none !important;
-    -ms-overflow-style: none !important;
-  }
-
-  .faqs-page-container .nav-buttons::-webkit-scrollbar {
-    display: none !important;
   }
 
   .faqs-page-container .nav-btn,
   .faqs-page-container .about-nav-home-btn {
     white-space: nowrap !important;
-    flex-shrink: 0 !important;
-    font-size: 12px !important;
-    padding: 6px 10px !important;
+    flex: 0 1 auto !important;
+    font-size: 11px !important;
+    padding: 5px 6px !important;
     margin-left: 0 !important;
+    letter-spacing: 0 !important;
   }
 
   .faqs-page-container .about-nav-home-btn {
-    font-size: 11px !important;
-    padding: 5px 8px !important;
+    font-size: 10px !important;
+    padding: 4px 6px !important;
   }
 
   .faqs-hero {
@@ -779,13 +773,13 @@
 
   .faqs-page-container .nav-btn,
   .faqs-page-container .about-nav-home-btn {
-    font-size: 11px !important;
-    padding: 5px 8px !important;
+    font-size: 10px !important;
+    padding: 4px 5px !important;
   }
 
   .faqs-page-container .about-nav-home-btn {
-    font-size: 10px !important;
-    padding: 4px 7px !important;
+    font-size: 9px !important;
+    padding: 3px 5px !important;
   }
 
   .faqs-hero {
