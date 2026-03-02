@@ -262,6 +262,8 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   letter-spacing: 1px;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .hero-content > p:first-of-type {

@@ -5,6 +5,9 @@
 /* Ensure proper container for sticky navbar */
 .vision-container {
   min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
 }
 
 /* Additional vision-specific customizations can be added here if needed */

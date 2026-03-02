@@ -32,6 +32,16 @@ html, body {
 
 /* Ensure all images are responsive */
 img {
+  max-width: 100%;\n  height: auto;
+  display: block;
+}
+
+/* Prevent images from causing overflow */
+img,
+video,
+iframe,
+embed,
+object {
   max-width: 100%;
   height: auto;
 }
@@ -49,12 +59,26 @@ html {
   select,
   textarea {
     min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Ensure proper spacing for touch targets */
+  button, .nav-btn, .footer-link, .footer-social-link {
+    touch-action: manipulation;
   }
 }
 
 /* Prevent horizontal scrolling on all elements */
 * {
   max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Better word-breaking for all text elements */
+h1, h2, h3, h4, h5, h6, p {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 /* Better touch scrolling on iOS */

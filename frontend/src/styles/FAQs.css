@@ -1,9 +1,11 @@
 /* FAQs Page Container */
 .faqs-page-container {
   width: 100%;
+  max-width: 100vw;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
   background: linear-gradient(135deg, #21222D 0%, #1f202b 100%);
   color: #e0e0e0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
