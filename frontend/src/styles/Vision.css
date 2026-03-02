@@ -1,0 +1,19 @@
+/* Vision Page Styles */
+/* Vision page inherits all styling from About.css */
+/* This ensures consistency across About and Vision pages */
+
+/* Ensure proper container for sticky navbar */
+.vision-container {
+  min-height: 100vh;
+}
+
+/* Additional vision-specific customizations can be added here if needed */
+
+/* Ensure responsive behavior is maintained */
+@media (max-width: 768px) {
+  /* Vision-specific mobile adjustments if needed */
+}
+
+@media (max-width: 480px) {
+  /* Vision-specific small mobile adjustments if needed */
+}

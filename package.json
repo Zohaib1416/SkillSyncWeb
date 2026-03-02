@@ -1,0 +1,23 @@
+{
+  "name": "skillsyncweb",
+  "private": true,
+  "version": "0.0.0",
+  "description": "SkillSync Web - Full Stack Application",
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run dev\"",
+    "start": "cd frontend && npm run dev",
+    "server": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}
