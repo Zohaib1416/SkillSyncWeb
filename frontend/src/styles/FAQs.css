@@ -405,31 +405,58 @@
 /* Medium Tablet (769px - 1024px) */
 @media (max-width: 768px) {
   .faqs-page-container .navbar {
-    padding: 0 20px;
+    padding: 10px 15px;
     height: auto;
-    min-height: 70px;
+    min-height: auto;
+    flex-direction: column;
+    gap: 8px;
+    background: rgba(33, 34, 45, 0.98);
+  }
+
+  .faqs-page-container .nav-logo {
+    font-size: 18px;
+    gap: 8px;
+  }
+
+  .faqs-page-container .nav-logo-img {
+    width: 40px;
+    height: 40px;
   }
 
   .faqs-page-container .nav-buttons {
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 6px;
+    justify-content: flex-start;
     width: 100%;
-    margin-top: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 4px 0;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .faqs-page-container .nav-buttons::-webkit-scrollbar {
+    display: none;
   }
 
   .faqs-page-container .nav-btn {
-    font-size: 13px;
+    font-size: 12px;
+    padding: 6px 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .faqs-page-container .about-nav-home-btn {
     font-size: 12px;
-    padding: 8px 14px;
+    padding: 6px 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .faqs-hero {
     padding: 40px 30px;
-    padding-top: 100px;
+    padding-top: 140px;
     min-height: 30dvh;
   }
 
@@ -483,38 +510,58 @@
 /* Mobile (480px - 768px) */
 @media (max-width: 480px) {
   .faqs-page-container .navbar {
-    padding: 12px 15px;
+    padding: 8px 12px;
     height: auto;
-    min-height: 60px;
+    min-height: auto;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
+    background: rgba(33, 34, 45, 0.98);
   }
 
   .faqs-page-container .nav-logo {
-    width: 100%;
-    justify-content: center;
+    font-size: 16px;
+    gap: 6px;
+  }
+
+  .faqs-page-container .nav-logo-img {
+    width: 35px;
+    height: 35px;
   }
 
   .faqs-page-container .nav-buttons {
     width: 100%;
-    justify-content: center;
-    gap: 8px;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 4px 0;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .faqs-page-container .nav-buttons::-webkit-scrollbar {
+    display: none;
   }
 
   .faqs-page-container .nav-btn {
     font-size: 11px;
-    padding: 6px 10px;
+    padding: 5px 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .faqs-page-container .about-nav-home-btn {
     font-size: 11px;
-    padding: 7px 12px;
+    padding: 5px 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .faqs-hero {
     padding: 30px 20px;
-    padding-top: 90px;
+    padding-top: 110px;
     min-height: 25dvh;
   }
 
