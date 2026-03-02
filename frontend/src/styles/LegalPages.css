@@ -334,6 +334,12 @@
     height: 40px;
   }
 
+  .legal-nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .legal-nav-btn {
     font-size: 12px;
     padding: 6px 10px;
@@ -401,6 +407,8 @@
 
   .legal-nav-buttons {
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .legal-nav-btn {

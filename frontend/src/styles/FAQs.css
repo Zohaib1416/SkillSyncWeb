@@ -756,6 +756,11 @@
     margin-left: 0 !important;
   }
 
+  .faqs-page-container .about-nav-home-btn {
+    font-size: 11px !important;
+    padding: 5px 8px !important;
+  }
+
   .faqs-hero {
     padding-top: 140px !important;
   }
@@ -776,6 +781,11 @@
   .faqs-page-container .about-nav-home-btn {
     font-size: 11px !important;
     padding: 5px 8px !important;
+  }
+
+  .faqs-page-container .about-nav-home-btn {
+    font-size: 10px !important;
+    padding: 4px 7px !important;
   }
 
   .faqs-hero {
