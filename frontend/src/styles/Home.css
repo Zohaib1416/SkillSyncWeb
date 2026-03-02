@@ -707,8 +707,9 @@
   }
 
   .hero-content h1 {
-    font-size: 36px;
+    font-size: 32px;
     margin-bottom: 12px;
+    max-width: 150px;
   }
 
   .hero-content > p:first-of-type {
@@ -811,8 +812,9 @@
   }
 
   .hero-content h1 {
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 10px;
+    max-width: 130px;
   }
 
   .hero-content > p:first-of-type {
