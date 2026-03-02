@@ -733,7 +733,7 @@
     width: 100% !important;
     display: flex !important;
     flex-wrap: nowrap !important;
-    justify-content: space-between !important;
+    justify-content: flex-start !important;
     gap: 4px !important;
     overflow-x: hidden !important;
     overflow-y: hidden !important;
@@ -753,6 +753,8 @@
   .faqs-page-container .about-nav-home-btn {
     font-size: 10px !important;
     padding: 4px 6px !important;
+    margin-left: auto !important;
+    flex: 0 0 auto !important;
   }
 
   .faqs-hero {
@@ -780,6 +782,8 @@
   .faqs-page-container .about-nav-home-btn {
     font-size: 9px !important;
     padding: 3px 5px !important;
+    margin-left: auto !important;
+    flex: 0 0 auto !important;
   }
 
   .faqs-hero {
