@@ -1166,6 +1166,98 @@ html {
   }
 
   .about-container .about-nav-logo {
+    justify-content: center !important;
+    font-size: 18px !important;
+    gap: 8px !important;
+  }
+
+  .about-container .about-nav-logo-img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .about-container .nav-buttons {
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: flex-start !important;
+    gap: 6px !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    padding: 4px 0 !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+
+  .about-container .nav-buttons::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .about-container .nav-btn,
+  .about-container .about-nav-home-btn {
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+    font-size: 12px !important;
+    padding: 6px 10px !important;
+  }
+
+  .about-container .about-nav-home-btn {
+    margin-left: auto !important;
+  }
+
+  .about-container .about-hero {
+    padding-top: 140px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container .about-nav-logo {
+    font-size: 16px !important;
+    gap: 6px !important;
+  }
+
+  .about-container .about-nav-logo-img {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .about-container .nav-btn,
+  .about-container .about-nav-home-btn {
+    font-size: 11px !important;
+    padding: 5px 8px !important;
+  }
+
+  .about-container .about-nav-home-btn {
+    margin-left: auto !important;
+  }
+
+  .about-container .about-hero {
+    padding-top: 112px !important;
+  }
+}
+
+/* Final Mobile Navbar Override (About, Vision, Team, Contact) */
+@media (max-width: 768px) {
+  .about-container .about-navbar {
+    padding: 8px 12px !important;
+    height: auto !important;
+    min-height: auto !important;
+    background: rgba(33, 34, 45, 0.98) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+  }
+
+  .about-container .about-nav-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  .about-container .about-nav-logo {
     font-size: 18px !important;
     gap: 8px !important;
     justify-content: center !important;
